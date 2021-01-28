@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html  lang = " pt-br " >
+
+<head>
+  <meta charset='utf-8'>
+  <title>Busque endereços pelo CEP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="container mt-5 ml-4 mr-4">
+    <div class="card bg-info text-dark border border-dark mt-2 mb-2">
+        <div class="card-body font-weight-bold ">
+        <h5>Resultado Cep</h5>
+        <p><%= dado.logradouro %></p>
+        <p><%= dado.localidade %></p>
+        <p><%= dado.bairro %></p> 
+        </div>
+    </div>
+    <a href="/" class="btn btn-success font-weight-bold mt-2">Procure outro endereço</a>
+</div>  
+</body>
+</html>
